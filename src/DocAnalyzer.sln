@@ -5,9 +5,14 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocAnalyzer.WPF", "DocAnalyzer.WPF\DocAnalyzer.WPF.csproj", "{D095C879-9445-4AB8-B509-33502F6AAE1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocAnalyzer.Common", "DocAnalyzer.Common\DocAnalyzer.Common.csproj", "{5B35702A-2AEB-4063-8653-D71D9D7EF7B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocAnalyzer.Common", "DocAnalyzer.Common\DocAnalyzer.Common.csproj", "{5B35702A-2AEB-4063-8653-D71D9D7EF7B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester", "Tester\Tester.csproj", "{53CA7318-3C12-4584-BFC8-29D65486EE6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tester", "Tester\Tester.csproj", "{53CA7318-3C12-4584-BFC8-29D65486EE6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4FF47875-6935-4C84-AA60-91B862EC36C9}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
